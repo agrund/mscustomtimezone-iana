@@ -9,7 +9,7 @@ Can be used as a fallback for cases where MS Graph API returns customTimeZone de
 ## Usage
 ```
 import { CustomTimeZone } from '@microsoft/microsoft-graph-types';
-import { customTimeZone2IANA } from "mscustometimezone-iana";
+import customTimeZone2IANA from 'mscustometimezone-iana';
 
 const customTimeZone = {
     bias: 480,
