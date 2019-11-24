@@ -1,0 +1,44 @@
+{
+  "name": "mscustomtimezone-iana",
+  "version": "1.0.0",
+  "description": "Tool to convert Microsoft customTimeZone to IANA time zone",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrund/mscustomtimezone-iana.git"
+  },
+  "keywords": [
+    "customtimezone",
+    "iana",
+    "timezone",
+    "convert",
+    "microsoft",
+    "graph",
+    "api"
+  ],
+  "author": "Antonín Grund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agrund/mscustomtimezone-iana/issues"
+  },
+  "homepage": "https://github.com/agrund/mscustomtimezone-iana#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.27"
+  },
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^1.12.0",
+    "@types/jest": "^24.0.23",
+    "@types/moment-timezone": "^0.5.12",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.2"
+  },
+  "files": [
+    "/dist"
+  ]
+}
